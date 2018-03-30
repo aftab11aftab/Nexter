@@ -4,6 +4,11 @@
 
     display: grid;
     grid-gap: 6rem;
+    
+
+    @include respond (phone) {
+        padding: 3rem;
+    }
 
 
     &__btn-box {
@@ -41,5 +46,10 @@
         width: 70%;
         justify-self: center; 
         text-align: center; 
+
+        @include respond (phone) {
+            width: 90%; 
+            
+        }
     }
 }
