@@ -29,8 +29,8 @@
         background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero-600.jpg);
     }     
     
-    @media only screen and (min-resolution: 192dpi) and (min-width: 56.25em),
-        only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 56.25em),
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+        only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), 
         only screen and (min-width: 112.5em) {
             background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero-1499.jpg);
     }
