@@ -15,7 +15,7 @@
     @include respond (phone-mid) {
         grid-template-rows: 6rem calc(100vh - 6rem) repeat(3, min-content) 55vw repeat(3, min-content); 
     }
-
+ 
 
     
 
